@@ -69,9 +69,10 @@ h1{
 .text-blocks{
     font-family: freesN;
     border-bottom: 1px solid rgba(201, 199, 199, 0.658);
-
+    min-width: 90%;
     margin: auto 0 2rem 0;
-    padding: 0.6rem 0;
+    padding: 0.6rem 0; 
+    font-size: 15px
 }
 
 .text-block-header{
@@ -96,4 +97,12 @@ h1{
 .arrow{
     color: rgb(250, 119, 119); 
     cursor: pointer;
-} 
+}  
+
+.arrow-d{
+    display: none;
+}
+
+.arrow-u{
+    /* display:none; */
+}
