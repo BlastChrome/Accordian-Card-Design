@@ -63,8 +63,10 @@ h1{
     text-align: center;
     margin-bottom: 2rem; 
     font-family: KumbB; 
-    font-weight: bold;;
-    font-size: 2.5rem
+    font-weight: bold;
+    font-size: 2.5rem ;
+    color: hsl(238, 29%, 16%);
+
 }
 
 .text-container{  
@@ -116,73 +118,31 @@ h1{
 
 @media only screen and (min-width: 1024px) {
     .content-wrap{
-        position: relative;  
-        background: white;
-        
-        border-radius: 22px;   
-        padding: 2rem; 
-        
-        /* New Stuff */ 
         display: flex;
         margin:  6rem auto; 
         width: 80%; 
-    } 
-    
+    }  
     .svg_container{
-        width: 100%;
-        top: -7.0rem; 
-        left: 0;
-
-        
-        
-        /* New stuff */
         position: static;
         width: 50%;        
         display: flex; 
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-    
         
-    }  
-
+    }   
+    svg{
+        transform: scale(1.5);
+        margin-left: 2.0rem;
+    }
     .secb-container{
-        display: flex; 
-        justify-content: center;  
-        align-items: center;
-        flex-direction: column;
-        
-        
-        /* new stuff */
         width: 50%;
         padding-top: 3rem;
     }   
-
-
     .text-blocks{
-        font-family: KumbR;
-        border-bottom: 1px solid rgba(201, 199, 199, 0.658);
-        min-width: 90%;
-        margin: auto 0 2rem 0;
-        padding: 0.6rem 0; 
-        font-size: 12px;
-
-
-        /* new stuff */ 
         max-width: 120px; 
     }
     
-
     h1{
-        text-align: center;
-        margin-bottom: 2rem; 
-        font-family: KumbB; 
-        font-weight: bold;
-        font-size: 2.5rem; 
-        /* color: hsl(238, 65%, 59%); */
-        color: hsl(238, 29%, 16%);
-
-
-        /* new stuff */ 
         text-align: start;
     }
 
